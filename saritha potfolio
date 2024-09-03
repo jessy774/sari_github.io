@@ -1,0 +1,90 @@
+html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Avula Saritha Yadav - Portfolio</title>
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <header>
+           <h1>Avula Saritha Yadav</h1>
+           <p>Electronics Engineer with Embedded Systems Expertise</p>
+           <nav>
+               <ul>
+                   <li><a href="#about">About Me</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#skills">Skills</a></li>
+                   <li><a href="#contact">Contact</a></li>
+               </ul>
+           </nav>
+       </header>
+       
+       <section id="about">
+           <h2>About Me</h2>
+           <p>Electronics Engineering 
+graduate with a strong background in embedded systems, hardware design, and firmware development</p>
+       </section>
+       
+       <section id="projects">
+           <h2>Projects</h2>
+           <ul>
+               <li>Implementation of Pocket cube satellite for smart campus</li>
+               <li>Personal Simulation Program with Integrated Circuit Emphasis</li>
+               <li>Metasurface 5G Antenna Using Python and MATLAB </li>
+               <li>Smart Radar System for Object Detection</li>
+           </ul>
+       </section>
+       
+       <section id="skills">
+           <h2>Skills</h2>
+           <p>C Programming, MS Office(Excel,word,powerpoint,Designing,UI/UX design,Microprocessos and Microcontrotroller</p>
+       </section>
+       
+       <section id="contact">
+           <h2>Contact</h2>
+           <p>Email: sarithaavula3146@gmail.com</p>
+           <p>LinkedIn: <a href="https://www.linkedin.com/in/saritha-75744823bb">My LinkedIn Profile</
+a></p>
+       </section>
+   </body>
+   </html>
+    css
+   body {
+       font-family: Arial, sans-serif;
+       line-height: 1.6;
+       background-color: #f4f4f4;
+       color: #333;
+       margin: 0;
+       padding: 0;
+   }
+   
+   header {
+       background-color: #35495e;
+       color: white;
+       padding: 1em;
+       text-align: center;
+   }
+   
+   nav ul {
+       list-style: none;
+       padding: 0;
+   }
+   
+   nav ul li {
+       display: inline;
+       margin: 0 10px;
+   }
+   
+   nav ul li a {
+       color: white;
+       text-decoration: none;
+   }
+   
+   section {
+       padding: 20px;
+       margin: 20px;
+       background: white;
+   }
+
